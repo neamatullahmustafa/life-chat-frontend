@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'angular-life-chat' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-life-chat');
+    expect(app.username).toEqual('angular-life-chat');
   });
 
   it('should render title', () => {
